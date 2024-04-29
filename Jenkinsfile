@@ -5,8 +5,8 @@ pipeline {
       stage('Checkout') {
           // Get the source code from a version control system (e.g., Git)
           steps {
-              git branch: 'main',  // Replace 'main' with your branch name
-                 url: 'https://github.com/your-username/your-project.git'
+              git branch: 'master',  // Replace 'main' with your branch name
+                 url: 'https://github.com/nikhilkumar12161/game-of-life.git'
           }
       }
       stage('Build') {
